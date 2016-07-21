@@ -28,8 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
   private static final String TAG = MainActivity.class.getSimpleName();
 
-  private static final String CALLBACK_SCHEME = "insert you callback scheme";
-  private static final String CLIENT_ID = "insert your client id";
+  //todo - create a project in the SoundCloud developer portal: https://soundcloud.com/you/apps/
+  private static final String CALLBACK_SCHEME = "soundcloudlogindemo://authentication.complete"; //todo - replace
+  private static final String CLIENT_ID = "e64276127b07b38ddfaf1ee458ffc2ac"; //todo - replace
   private static final String STATE = MainActivity.class.getCanonicalName();
 
   @Override protected void onCreate(Bundle savedInstanceState) {
