@@ -1,4 +1,4 @@
-package bulwinkel.com.soundcloudlogin;
+package com.bulwinkel.soundcloudlogin;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -19,6 +19,6 @@ import static org.junit.Assert.*;
     // Context of the app under test.
     Context appContext = InstrumentationRegistry.getTargetContext();
 
-    assertEquals("bulwinkel.com.soundcloudlogin", appContext.getPackageName());
+    assertEquals("com.bulwinkel.soundcloudlogin", appContext.getPackageName());
   }
 }

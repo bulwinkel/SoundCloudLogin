@@ -1,4 +1,4 @@
-package bulwinkel.com.soundcloudlogin;
+package com.bulwinkel.soundcloudlogin;
 
 import org.junit.Test;
 

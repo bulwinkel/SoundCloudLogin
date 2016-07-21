@@ -4,7 +4,7 @@ android {
   compileSdkVersion 24
   buildToolsVersion "24.0.0"
   defaultConfig {
-    applicationId "bulwinkel.com.soundcloudlogin"
+    applicationId "com.bulwinkel.soundcloudlogin"
     minSdkVersion 16
     targetSdkVersion 24
     versionCode 1
