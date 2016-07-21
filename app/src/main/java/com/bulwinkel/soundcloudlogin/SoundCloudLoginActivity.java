@@ -1,4 +1,4 @@
-package bulwinkel.com.soundcloudlogin;
+package com.bulwinkel.soundcloudlogin;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -22,6 +22,7 @@ import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
+import bulwinkel.com.soundcloudlogin.R;
 
 public class SoundCloudLoginActivity extends AppCompatActivity {
 
