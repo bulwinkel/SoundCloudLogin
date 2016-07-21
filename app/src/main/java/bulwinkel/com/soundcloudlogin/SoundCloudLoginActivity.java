@@ -2,7 +2,6 @@ package bulwinkel.com.soundcloudlogin;
 
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.res.ColorStateList;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.net.Uri;
@@ -24,14 +23,14 @@ import android.widget.FrameLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 
-public class MainActivity extends AppCompatActivity {
+public class SoundCloudLoginActivity extends AppCompatActivity {
 
-  private static final String TAG = MainActivity.class.getSimpleName();
+  private static final String TAG = SoundCloudLoginActivity.class.getSimpleName();
 
   //todo - create a project in the SoundCloud developer portal: https://soundcloud.com/you/apps/
   private static final String CALLBACK_SCHEME = "soundcloudlogindemo://authentication.complete"; //todo - replace
   private static final String CLIENT_ID = "e64276127b07b38ddfaf1ee458ffc2ac"; //todo - replace
-  private static final String STATE = MainActivity.class.getCanonicalName();
+  private static final String STATE = SoundCloudLoginActivity.class.getCanonicalName();
 
   @Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);

@@ -1,6 +1,24 @@
 SoundCloud Login Demo
 =====================
 
+This project demonstrates the first stage of the SoundCloud OAuth2 process on Android
+for login with Email, Facebook and Google+.
+ 
+It has no 3rd party dependencies (except the support library) and works on Android 4.1 and up.
+
+I have included a client ID and callback scheme so you can run the application without having 
+to setup a project on SoundCloud. DO NOT use these credentials in production.
+
+All the goods are in the `SoundCloudLoginActivity` class. I have left comments throughout
+explaining why things are done as they are.
+
+If you want to see it in action, check out the [wonder.fm](http://wonder.fm/) [android app](https://play.google.com/store/apps/details?id=com.hydricmedia.wonderfm&hl=en).
+
+
+Extra Info
+----------
+* [Sign In with SoundCloud Documentation](https://developer.soundcloud.com/docs/api/guide#authentication)
+* [Register a New Application](http://soundcloud.com/you/apps/new)
 
 
 License
